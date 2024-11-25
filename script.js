@@ -11,10 +11,10 @@ function toggleMode(){
     if (html.classList.contains('light')) {
         //se tiver light mode, adcionar a imagem light
         img.setAttribute("src", "./assets/avatar-light.png")
-        img.setAttribute("alt", "Foto de Myke Brito sorrindo, usando óculos escuros com um fundo azul e roza.");
+        img.setAttribute("alt", "Foto de Jakson Fritzen, usando um casaco cinza em um fundo levemente iluminado por uma luz roza.");
     } else {
         //se tiver sem light mode, manter a imagem atual
         img.setAttribute("src", "./assets/avatar.png")
-        img.setAttribute("Foto de Myke Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo");
+        img.setAttribute("Foto de Jakson Fritzen, usando uma camisa roxa em um fundo verde.");
     }
 }
